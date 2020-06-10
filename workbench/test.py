@@ -1,11 +1,11 @@
 import argparse
-from wockbench.utils import *
+from workbench.utils import *
 import os
 from tqdm import tqdm
 from glob import glob
 import time
 import numpy as np
-from wockbench.net import generator
+from workbench.net import generator
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def parse_args():
@@ -18,7 +18,7 @@ def parse_args():
                         help='Directory name to save the checkpoints')
     parser.add_argument('--test_dir', type=str, default='result/real',
                         help='Directory name of test photos')
-    parser.add_argument('--style_name', type=str, default='result/generate',
+    parser.add_argument('--style_name', type=str, default='generate',
                         help='what style you want to get')
 
     """checking arguments"""

@@ -1,11 +1,11 @@
-from wockbench.ops import *
-from wockbench.utils import *
+from workbench.ops import *
+from workbench.utils import *
 from glob import glob
 import time
 import numpy as np
-from wockbench.net import generator
-from wockbench.net.discriminator import D_net
-from wockbench.data_loader import ImageGenerator
+from workbench.net import generator
+from workbench.net.discriminator import D_net
+from workbench.data_loader import ImageGenerator
 
 class AnimeGAN(object) :
     def __init__(self, sess, args):

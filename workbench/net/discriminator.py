@@ -1,5 +1,5 @@
 
-from wockbench.ops import *
+from workbench.ops import *
 
 def D_net(x_init,ch, n_dis,sn, scope, reuse):
     channel = ch // 2

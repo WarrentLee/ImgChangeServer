@@ -1,4 +1,4 @@
-from wockbench.ops import *
+from workbench.ops import *
 import tensorflow as tf
 
 

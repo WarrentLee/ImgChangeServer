@@ -1,6 +1,6 @@
-from wockbench.AnimeGAN import AnimeGAN
+from workbench.AnimeGAN import AnimeGAN
 import argparse
-from wockbench.utils import *
+from workbench.utils import *
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 

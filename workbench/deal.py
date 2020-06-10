@@ -1,11 +1,11 @@
 import argparse
-from wockbench.utils import *
+from workbench.utils import *
 import os
 from tqdm import tqdm
 from glob import glob
 import time
 import numpy as np
-from wockbench.net import generator
+from workbench.net import generator
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 

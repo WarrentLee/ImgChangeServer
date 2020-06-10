@@ -7,7 +7,7 @@ from config import Config
 from database.model import ImageModel
 import os, io
 from PIL import Image
-from wockbench.deal import deal_args, deal
+from workbench.deal import deal_args, deal
 
 api = Namespace('change', description='Image related operations')
 

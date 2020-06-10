@@ -1,6 +1,6 @@
 import tensorflow as tf
 import tensorflow.contrib as tf_contrib
-from wockbench.vgg19 import Vgg19
+from workbench.vgg19 import Vgg19
 
 # Xavier : tf_contrib.layers.xavier_initializer()
 # He : tf_contrib.layers.variance_scaling_initializer()

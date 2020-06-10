@@ -1,5 +1,5 @@
 # The edge_smooth.py is from taki0112/CartoonGAN-Tensorflow https://github.com/taki0112/CartoonGAN-Tensorflow#2-do-edge_smooth
-from wockbench.utils import check_folder
+from workbench.utils import check_folder
 import numpy as np
 import cv2, os, argparse
 from glob import glob

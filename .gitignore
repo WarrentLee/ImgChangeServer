@@ -1,4 +1,4 @@
-/wockbench/checkpoint/model
-/wockbench/result
-/wockbench/vgg19_weight
+/workbench/checkpoint/model
+/workbench/result
+/workbench/vgg19_weight
 /.idea
